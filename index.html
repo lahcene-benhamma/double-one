@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DOUBLE ONE — Streetwear masculin à Bab Ezzouar, Alger</title>
+<meta name="description" content="DOUBLE ONE, boutique de vêtements streetwear pour homme à Bab Ezzouar, Alger. Ouvert tous les jours. Contactez-nous sur WhatsApp.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="DOUBLE ONE — Streetwear à Alger">
+<meta property="og:description" content="Streetwear masculin, moderne et urbain. Bab Ezzouar, Alger.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ClothingStore","name":"DOUBLE ONE","telephone":"+213773014399",
+"address":{"@type":"PostalAddress","addressLocality":"Bab Ezzouar","addressRegion":"Alger","addressCountry":"DZ"},
+"openingHours":"Mo-Su 10:00-23:00","sameAs":["https://www.instagram.com/double_one.dz/"]}
+</script>
+<style>
+:root{
+  --black:#000; --white:#fff; --ink:#fff; --bg:#000; --mute:#9a9a9a; --line:#2a2a2a;
+  --display:"Anton","Impact","Arial Narrow",sans-serif;
+  --body:"Archivo","Helvetica Neue",Arial,sans-serif;
+  color-scheme: dark;
+}
+/* Identité noir & blanc : le thème reste identique en mode clair ou sombre */
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px;height:auto}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.6;
+  padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.wrap{width:min(1120px,100% - 40px);margin-inline:auto}
+.skip{position:absolute;left:-999px;background:#fff;color:#000;padding:8px 14px;z-index:99}
+.skip:focus{left:10px;top:10px}
+
+/* Logo : remplacer par une image dans la config (LOGO_SRC) */
+.logo{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--display);letter-spacing:.06em;font-size:1.5rem;line-height:1}
+.logo img{height:36px;width:auto;display:block}
+.mark{display:inline-flex;gap:3px;font-size:1.6rem}
+.mark span{display:inline-block;background:#fff;color:#000;padding:2px 7px}
+
+header{position:sticky;top:0;z-index:20;background:rgba(0,0,0,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+nav ul{display:flex;gap:28px;list-style:none;padding:0}
+nav a{text-decoration:none;font-weight:500;font-size:.95rem;padding:6px 0;border-bottom:2px solid transparent}
+nav a:hover{border-color:#fff}
+
+/* Hero : tunnel de cadres qui s'enfonce */
+.hero{position:relative;min-height:calc(100svh - 64px);display:grid;place-items:center;overflow:hidden;text-align:center;border-bottom:1px solid var(--line)}
+.tunnel{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+.tunnel i{position:absolute;border:1px solid #fff;aspect-ratio:1;width:140vmax;opacity:.0;transform:scale(1);animation:dive 12s linear infinite}
+.tunnel i:nth-child(1){animation-delay:0s}.tunnel i:nth-child(2){animation-delay:-2s}.tunnel i:nth-child(3){animation-delay:-4s}
+.tunnel i:nth-child(4){animation-delay:-6s}.tunnel i:nth-child(5){animation-delay:-8s}.tunnel i:nth-child(6){animation-delay:-10s}
+@keyframes dive{0%{transform:scale(.02);opacity:0}15%{opacity:.5}100%{transform:scale(1);opacity:0}}
+.hero .inner{position:relative;padding:60px 0}
+.hero h1{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(4.2rem,17vw,12rem);line-height:.9;letter-spacing:.02em}
+.hero h1 span{display:block}
+.hero h1 .two{-webkit-text-stroke:2px #fff;color:transparent}
+.hero p.tag{font-size:clamp(1.05rem,2.4vw,1.4rem);max-width:30ch;margin:28px auto 36px;font-weight:500}
+.btn{display:inline-block;text-decoration:none;font-weight:700;padding:16px 30px;border:2px solid #fff;transition:background .15s,color .15s}
+.btn.solid{background:#fff;color:#000}.btn.solid:hover{background:#000;color:#fff}
+.btn.line{background:transparent;color:#fff}.btn.line:hover{background:#fff;color:#000}
+
+section.blk{padding:96px 0}
+h2{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(2.4rem,6vw,4.2rem);line-height:1;letter-spacing:.02em;margin-bottom:18px}
+.lead{color:var(--mute);max-width:56ch}
+
+/* Section claire pour le contraste */
+.light{background:#fff;color:#000}.light .lead{color:#444}.light :focus-visible{outline-color:#000}
+.light .btn{border-color:#000}.light .btn.solid{background:#000;color:#fff}.light .btn.solid:hover{background:#fff;color:#000}
+
+.soon{border:1px solid var(--line);padding:22px 26px;margin-top:40px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.soon strong{font-family:var(--display);font-weight:400;font-size:1.4rem;letter-spacing:.04em;text-transform:uppercase}
+
+/* Collection */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:24px;margin-top:40px}
+.card{border:1px solid #000;display:flex;flex-direction:column}
+.card .ph{aspect-ratio:4/5;background:#eee;overflow:hidden}
+.card .ph img{width:100%;height:100%;object-fit:cover;display:block}
+.card .b{padding:16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card h3{font-family:var(--display);font-weight:400;font-size:1.4rem;letter-spacing:.03em;text-transform:uppercase}
+.card p{font-size:.92rem;color:#444}
+.price{font-weight:700;font-size:1.1rem;margin-top:auto;padding-top:8px}
+.card .btn{margin-top:10px;padding:12px;text-align:center;font-size:.9rem}
+.empty{border:2px dashed #000;padding:64px 24px;text-align:center;margin-top:40px}
+.empty h3{font-family:var(--display);font-weight:400;font-size:clamp(1.8rem,4vw,2.6rem);text-transform:uppercase;letter-spacing:.03em}
+.empty p{color:#444;margin:8px auto 24px;max-width:44ch}
+
+/* À propos / contact */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+dl{display:grid;grid-template-columns:auto 1fr;gap:12px 24px;margin:8px 0 28px}
+dt{color:var(--mute)}dd a{font-weight:700}
+.actions{display:flex;gap:14px;flex-wrap:wrap}
+address{font-style:normal;font-size:1.15rem;margin:8px 0 24px}
+
+footer{border-top:1px solid var(--line);padding:40px 0;color:var(--mute);font-size:.9rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:center}
+footer a{color:#fff}
+.social{display:flex;gap:18px}
+
+@media (max-width:760px){
+  .cols{grid-template-columns:1fr;gap:40px}
+  nav ul{gap:16px}nav a{font-size:.85rem}
+  header .wrap{height:auto;min-height:64px;flex-wrap:wrap;padding:8px 0;gap:4px}
+  html{scroll-padding-top:110px}
+  section.blk{padding:64px 0}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.tunnel i{animation:none;opacity:.25;transform:scale(.3)}.tunnel i:nth-child(n+3){display:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#collection">Aller à la collection</a>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#accueil" aria-label="DOUBLE ONE, accueil" id="logo-link"></a>
+    <nav aria-label="Navigation principale">
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="accueil">
+  <div class="tunnel" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="wrap inner">
+    <h1><span>Double</span><span class="two">One</span></h1>
+    <p class="tag">Streetwear masculin. Pensé pour la ville, porté sans compromis.</p>
+    <a class="btn solid" href="#collection">Découvrir la collection</a>
+  </div>
+</section>
+
+<section class="blk light" id="collection">
+  <div class="wrap">
+    <h2>Collection</h2>
+    <p class="lead">Les pièces DOUBLE ONE, disponibles en boutique à Bab Ezzouar.</p>
+    <div id="products"></div>
+    <div class="soon" style="border-color:#000">
+      <strong>Nouveaux articles bientôt</strong>
+      <span>Suivez-nous sur Instagram pour voir les arrivages en premier.</span>
+    </div>
+  </div>
+</section>
+
+<section class="blk" id="apropos">
+  <div class="wrap cols">
+    <div>
+      <h2>À propos</h2>
+      <p class="lead">DOUBLE ONE est une boutique de vêtements streetwear pour homme, installée à Bab Ezzouar, Alger. Des coupes modernes, un style urbain, une allure premium.</p>
+    </div>
+    <div>
+      <h2>Nous trouver</h2>
+      <address>DOUBLE ONE (clothing)<br>P59P+7C7, Bab Ezzouar<br>Alger, Algérie</address>
+      <a class="btn line" id="maps" target="_blank" rel="noopener" href="#">Ouvrir dans Google Maps</a>
+    </div>
+  </div>
+</section>
+
+<section class="blk light" id="contact">
+  <div class="wrap cols">
+    <div>
+      <h2>Contact</h2>
+      <p class="lead">Une question sur un article, une taille, un arrivage ? Écrivez-nous, on répond vite.</p>
+    </div>
+    <div>
+      <dl>
+        <dt>Téléphone</dt><dd><a href="tel:+213773014399">0773 01 43 99</a></dd>
+        <dt>WhatsApp</dt><dd><a href="https://wa.me/213773014399" target="_blank" rel="noopener">0773 01 43 99</a></dd>
+        <dt>Horaires</dt><dd>Tous les jours, 10 h – 23 h</dd>
+        <dt>Instagram</dt><dd><a href="https://www.instagram.com/double_one.dz/" target="_blank" rel="noopener">@double_one.dz</a></dd>
+      </dl>
+      <div class="actions">
+        <a class="btn solid" id="wa-main" href="https://wa.me/213773014399" target="_blank" rel="noopener">Nous contacter sur WhatsApp</a>
+        <a class="btn line" href="https://www.instagram.com/double_one.dz/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© <span id="yr"></span> DOUBLE ONE · Bab Ezzouar, Alger · <a href="tel:+213773014399">0773 01 43 99</a></div>
+    <div class="social">
+      <a href="https://www.instagram.com/double_one.dz/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/213773014399" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* =========================================================
+   CONFIGURATION — le seul endroit à modifier pour le contenu
+   ========================================================= */
+
+// Logo : mettre le chemin du fichier original (ex. "logo.png").
+// Laisser vide pour afficher un logotype texte provisoire.
+const LOGO_SRC = "";
+
+const WHATSAPP = "213773014399";
+const MAPS_URL = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent("P59P+7C7 Bab Ezzouar Alger");
+
+/* ARTICLES — ajouter un objet par article.
+   Exemple :
+   { name: "Hoodie Noir Oversize",
+     description: "Coton épais, coupe ample.",
+     price: 6500,                 // en DA
+     image: "photos/hoodie-noir.jpg" }
+*/
+const PRODUCTS = [
+  // Vide pour l'instant : l'état « bientôt disponible » s'affiche.
+];
+
+/* ========================================================= */
+
+// Logo
+(function(){
+  const a = document.getElementById("logo-link");
+  if (LOGO_SRC) {
+    const img = new Image(); img.src = LOGO_SRC; img.alt = "DOUBLE ONE"; a.appendChild(img);
+  } else {
+    a.innerHTML = '<span class="mark" aria-hidden="true"><span>1</span><span>1</span></span><span>DOUBLE ONE</span>';
+  }
+})();
+
+// Liens
+document.getElementById("maps").href = MAPS_URL;
+document.getElementById("yr").textContent = new Date().getFullYear();
+
+// Collection
+(function(){
+  const box = document.getElementById("products");
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  if (!PRODUCTS.length) {
+    box.innerHTML = '<div class="empty"><h3>Collection bientôt disponible</h3>' +
+      '<p>Les premiers articles arrivent. Passez en boutique ou écrivez-nous pour connaître les nouveautés.</p>' +
+      '<a class="btn solid" target="_blank" rel="noopener" href="https://wa.me/' + WHATSAPP + '">Nous contacter sur WhatsApp</a></div>';
+    return;
+  }
+  const fmt = n => new Intl.NumberFormat("fr-DZ").format(n).replace(/[\u202f\u00a0]/g, " ") + " DA";
+  box.innerHTML = '<div class="grid">' + PRODUCTS.map(p => {
+    const msg = encodeURIComponent("Bonjour, je suis intéressé par : " + p.name);
+    return '<article class="card"><div class="ph"><img src="' + esc(p.image) + '" alt="' + esc(p.name) + '" loading="lazy"></div>' +
+      '<div class="b"><h3>' + esc(p.name) + '</h3><p>' + esc(p.description || "") + '</p>' +
+      '<div class="price">' + fmt(p.price) + '</div>' +
+      '<a class="btn solid" target="_blank" rel="noopener" href="https://wa.me/' + WHATSAPP + '?text=' + msg + '">Demander sur WhatsApp</a></div></article>';
+  }).join("") + '</div>';
+})();
+</script>
+</body>
+</html>
