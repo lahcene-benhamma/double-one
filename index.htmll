@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DOUBLE ONE — Streetwear masculin à Bab Ezzouar, Alger</title>
+<meta name="description" content="DOUBLE ONE, boutique de vêtements streetwear pour homme à Bab Ezzouar, Alger. Ouvert tous les jours. Contactez-nous sur WhatsApp.">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="assets/logo.png">
+<meta property="og:title" content="DOUBLE ONE — Streetwear à Alger">
+<meta property="og:description" content="Streetwear masculin, moderne et urbain. Bab Ezzouar, Alger.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ClothingStore","name":"DOUBLE ONE","telephone":"+213773014399",
+"address":{"@type":"PostalAddress","addressLocality":"Bab Ezzouar","addressRegion":"Alger","addressCountry":"DZ"},
+"openingHours":"Mo-Su 10:00-23:00","sameAs":["https://www.instagram.com/double_one.dz/"]}
+</script>
+<style>
+:root{
+  --black:#000; --white:#fff; --ink:#000; --bg:#fff; --mute:#666; --line:#e5e5e5;
+  --display:"Anton","Impact","Arial Narrow",sans-serif;
+  --body:"Archivo","Helvetica Neue",Arial,sans-serif;
+  color-scheme: light;
+}
+/* Identité blanc & noir inversée : dominante blanche et détails noirs */
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px;height:auto}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.6;
+  padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:3px solid #000;outline-offset:3px}
+.wrap{width:min(1120px,100% - 40px);margin-inline:auto}
+.skip{position:absolute;left:-999px;background:#000;color:#fff;padding:8px 14px;z-index:99}
+.skip:focus{left:10px;top:10px}
+
+/* Logo */
+.logo{display:inline-flex;align-items:center;gap:12px;text-decoration:none;font-family:var(--display);letter-spacing:.06em;font-size:1.45rem;line-height:1;color:#000}
+.logo img{height:46px;width:46px;aspect-ratio:1/1;object-fit:cover;display:block;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,.15);transition:transform .3s ease}
+.logo:hover img{transform:rotate(8deg) scale(1.06)}
+.mark{display:inline-flex;gap:3px;font-size:1.6rem}
+.mark span{display:inline-block;background:#000;color:#fff;padding:2px 7px}
+
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+nav ul{display:flex;gap:28px;list-style:none;padding:0}
+nav a{text-decoration:none;font-weight:500;font-size:.95rem;padding:6px 0;border-bottom:2px solid transparent}
+nav a:hover{border-color:#000}
+
+/* Hero : tunnel de cadres noir sur fond blanc */
+.hero{position:relative;min-height:calc(100svh - 64px);display:grid;place-items:center;overflow:hidden;text-align:center;border-bottom:1px solid var(--line);background:#fff}
+.tunnel{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+.tunnel i{position:absolute;border:1px solid #000;aspect-ratio:1;width:140vmax;opacity:.0;transform:scale(1);animation:dive 12s linear infinite}
+.tunnel i:nth-child(1){animation-delay:0s}.tunnel i:nth-child(2){animation-delay:-2s}.tunnel i:nth-child(3){animation-delay:-4s}
+.tunnel i:nth-child(4){animation-delay:-6s}.tunnel i:nth-child(5){animation-delay:-8s}.tunnel i:nth-child(6){animation-delay:-10s}
+@keyframes dive{0%{transform:scale(.02);opacity:0}15%{opacity:.35}100%{transform:scale(1);opacity:0}}
+.hero .inner{position:relative;padding:60px 0;z-index:2}
+.hero h1{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(4.2rem,17vw,12rem);line-height:.9;letter-spacing:.02em;color:#000}
+.hero h1 span{display:block}
+.hero h1 .two{-webkit-text-stroke:2px #000;color:transparent}
+.hero p.tag{font-size:clamp(1.05rem,2.4vw,1.4rem);max-width:30ch;margin:28px auto 36px;font-weight:500;color:#222}
+.btn{display:inline-block;text-decoration:none;font-weight:700;padding:16px 30px;border:2px solid #000;transition:background .15s,color .15s}
+.btn.solid{background:#000;color:#fff}.btn.solid:hover{background:#fff;color:#000}
+.btn.line{background:transparent;color:#000}.btn.line:hover{background:#000;color:#fff}
+
+/* From Uiverse.io by barisdogansutcu - Boutons Cyber/Streetwear DOUBLE ONE */
+.btn-uiverse {
+ border: none;
+ position: relative;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ width: min(240px, 86vw);
+ height: 74px;
+ padding: 0;
+ z-index: 2;
+ text-decoration: none;
+ -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='868' width='2500' viewBox='0 0 726 252.17'%3E%3Cpath d='M483.92 0S481.38 24.71 466 40.11c-11.74 11.74-24.09 12.66-40.26 15.07-9.42 1.41-29.7 3.77-34.81-.79-2.37-2.11-3-21-3.22-27.62-.21-6.92-1.36-16.52-2.82-18-.75 3.06-2.49 11.53-3.09 13.61S378.49 34.3 378 36a85.13 85.13 0 0 0-30.09 0c-.46-1.67-3.17-11.48-3.77-13.56s-2.34-10.55-3.09-13.61c-1.45 1.45-2.61 11.05-2.82 18-.21 6.67-.84 25.51-3.22 27.62-5.11 4.56-25.38 2.2-34.8.79-16.16-2.47-28.51-3.39-40.21-15.13C244.57 24.71 242 0 242 0H0s69.52 22.74 97.52 68.59c16.56 27.11 14.14 58.49 9.92 74.73C170 140 221.46 140 273 158.57c69.23 24.93 83.2 76.19 90 93.6 6.77-17.41 20.75-68.67 90-93.6 51.54-18.56 103-18.59 165.56-15.25-4.21-16.24-6.63-47.62 9.93-74.73C656.43 22.74 726 0 726 0z'/%3E%3C/svg%3E") no-repeat 50% 50%;
+ mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='868' width='2500' viewBox='0 0 726 252.17'%3E%3Cpath d='M483.92 0S481.38 24.71 466 40.11c-11.74 11.74-24.09 12.66-40.26 15.07-9.42 1.41-29.7 3.77-34.81-.79-2.37-2.11-3-21-3.22-27.62-.21-6.92-1.36-16.52-2.82-18-.75 3.06-2.49 11.53-3.09 13.61S378.49 34.3 378 36a85.13 85.13 0 0 0-30.09 0c-.46-1.67-3.17-11.48-3.77-13.56s-2.34-10.55-3.09-13.61c-1.45 1.45-2.61 11.05-2.82 18-.21 6.67-.84 25.51-3.22 27.62-5.11 4.56-25.38 2.2-34.8.79-16.16-2.47-28.51-3.39-40.21-15.13C244.57 24.71 242 0 242 0H0s69.52 22.74 97.52 68.59c16.56 27.11 14.14 58.49 9.92 74.73C170 140 221.46 140 273 158.57c69.23 24.93 83.2 76.19 90 93.6 6.77-17.41 20.75-68.67 90-93.6 51.54-18.56 103-18.59 165.56-15.25-4.21-16.24-6.63-47.62 9.93-74.73C656.43 22.74 726 0 726 0z'/%3E%3C/svg%3E") no-repeat 50% 50%;
+ -webkit-mask-size: 100% 100%;
+ mask-size: 100% 100%;
+ cursor: pointer;
+ background-color: #ededed;
+ transform: translateY(6px);
+ transition: transform .3s ease, background-color .3s ease;
+}
+
+.btn-uiverse:after {
+ content: '';
+ position: absolute;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ box-shadow: 0px 0 0 0 white;
+ transition: all 1.5s ease;
+ pointer-events: none;
+}
+
+.btn-uiverse:hover:after {
+ box-shadow: 0px -13px 56px 12px rgba(255,255,255,0.7);
+}
+
+.btn-uiverse span {
+ position: absolute;
+ width: 84%;
+ font-family: var(--display), sans-serif;
+ font-size: 14.5px;
+ font-weight: 400;
+ line-height: 1;
+ left: 50%;
+ top: 43%;
+ letter-spacing: 2.2px;
+ text-transform: uppercase;
+ text-align: center;
+ white-space: nowrap;
+ transform: translate(-50%, -50%);
+ color: #000;
+ transition: color .6s ease;
+ z-index: 3;
+ pointer-events: none;
+}
+
+.btn-uiverse:hover span {
+ color: #fff;
+}
+
+.btn-uiverse:before {
+ content: '';
+ position: absolute;
+ width: 0;
+ height: 100%;
+ background-color: #000;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+ transition: width .6s cubic-bezier(0.25, 1, 0.5, 1);
+ z-index: 1;
+}
+
+.btn-uiverse:hover:before {
+ width: 100%;
+}
+
+/* Tunnel 3D du hero (avec vraies photos de la boutique DOUBLE ONE) */
+.stage{position:absolute;inset:0;perspective:1200px;pointer-events:none}
+.stage .tc{position:absolute;left:50%;top:50%;aspect-ratio:4/5;background:#fff;color:#000;border:1px solid rgba(0,0,0,.15);display:flex;align-items:center;justify-content:center;text-align:center;font-family:var(--display);text-transform:uppercase;font-size:clamp(1.3rem,3vw,2rem);line-height:1;opacity:0;will-change:transform,opacity;overflow:hidden;box-shadow:0 12px 32px rgba(0,0,0,.12);border-radius:2px}
+.stage .tc img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.stage .tc .tc-lbl{position:absolute;bottom:10px;left:10px;right:10px;background:rgba(0,0,0,.82);color:#fff;font-family:var(--display);font-size:clamp(.75rem,1.4vw,.95rem);letter-spacing:.08em;padding:6px 10px;text-align:center;text-transform:uppercase;border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(6px);z-index:2}
+.hero{height:calc(100svh - 64px)}
+section.blk{padding:96px 0}
+h2{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(2.4rem,6vw,4.2rem);line-height:1;letter-spacing:.02em;margin-bottom:18px}
+.lead{color:var(--mute);max-width:56ch}
+
+/* Section contrastée foncée (Collection & Contact) */
+.dark{background:#000;color:#fff}.dark .lead{color:#9a9a9a}.dark :focus-visible{outline-color:#fff}
+.dark .btn{border-color:#fff}.dark .btn.solid{background:#fff;color:#000}.dark .btn.solid:hover{background:#000;color:#fff}
+.dark .btn.line{background:transparent;color:#fff;border-color:#fff}.dark .btn.line:hover{background:#fff;color:#000}
+.dark .soon{border-color:#2a2a2a;background:#0d0d0d;color:#fff}.dark .soon strong{color:#fff}.dark .soon span{color:#9a9a9a}
+.dark .empty{border:2px dashed #444;color:#fff}.dark .empty h3{color:#fff}.dark .empty p{color:#aaa}
+.dark .card{border-color:#333;background:#111;color:#fff}.dark .card h3{color:#fff}.dark .card p{color:#aaa}.dark .card .ph{background:#222}
+.dark dt{color:#888}.dark dd a{color:#fff}
+
+.soon{border:1px solid var(--line);padding:22px 26px;margin-top:40px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+/* Tilted Grid Hero — Lookbook Cylindrique 3D incurvé pour la Collection (Thème Blanc) */
+.tilted-grid-hero{position:relative;width:100%;height:clamp(360px,46vw,480px);overflow:hidden;margin:32px 0 48px;background:radial-gradient(circle at 50% 50%,#fbfbfb 0%,#f0f0f0 100%);border:1px solid #e2e2e2;border-radius:4px;perspective:1100px;perspective-origin:50% 50%}
+.tgh-track{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;transform-style:preserve-3d;pointer-events:none;mask-image:linear-gradient(90deg,transparent 0%,#000 12%,#000 88%,transparent 100%);-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 12%,#000 88%,transparent 100%)}
+.tgh-card{position:absolute;width:clamp(220px,26vw,320px);aspect-ratio:4/5;border-radius:6px;overflow:hidden;background:#fff;border:1px solid rgba(0,0,0,.12);box-shadow:0 12px 30px rgba(0,0,0,.1);transform-style:preserve-3d;will-change:transform,opacity;pointer-events:auto;transition:border-color .3s,box-shadow .3s}
+.tgh-card:hover{border-color:#000;box-shadow:0 20px 45px rgba(0,0,0,.22)}
+.tgh-card img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none;user-select:none;-webkit-user-drag:none;transition:transform .4s ease}
+.tgh-card:hover img{transform:scale(1.05)}
+.tgh-card-info{position:absolute;bottom:0;inset-inline:0;padding:12px 14px;background:linear-gradient(to top,rgba(0,0,0,.88) 0%,rgba(0,0,0,.45) 60%,transparent 100%);color:#fff;display:flex;justify-content:space-between;align-items:flex-end;gap:8px}
+.tgh-card-name{font-family:var(--display);font-size:.9rem;letter-spacing:.04em;text-transform:uppercase;line-height:1.1}
+.tgh-card-price{font-weight:700;font-size:.85rem;color:#fff;background:rgba(255,255,255,.25);backdrop-filter:blur(4px);padding:3px 8px;border-radius:2px;white-space:nowrap}
+.tgh-overlay{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;padding:clamp(16px,3vw,26px);pointer-events:none;z-index:10}
+.tgh-tag{display:inline-flex;align-items:center;gap:8px;align-self:flex-start;font-family:var(--display);font-size:.78rem;letter-spacing:.18em;color:#fff;background:#000;padding:6px 14px;border:1px solid #000;text-transform:uppercase}
+.tgh-tag::before{content:"";display:inline-block;width:7px;height:7px;background:#fff;border-radius:50%;animation:tghPulse 1.8s ease-in-out infinite}
+@keyframes tghPulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.6);opacity:.4}}
+.tgh-footer{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+.tgh-title{font-family:var(--display);font-size:clamp(1.3rem,3.2vw,2.2rem);font-weight:400;color:#000;letter-spacing:.05em;text-transform:uppercase;line-height:.95}
+.tgh-subtitle{font-size:clamp(.78rem,1.3vw,.92rem);color:#555;margin-top:6px}
+.tgh-badge{font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:#000;background:rgba(0,0,0,.06);padding:5px 12px;border:1px solid rgba(0,0,0,.15);border-radius:2px}
+@media (prefers-reduced-motion:reduce){.tgh-card{transition:none}}
+
+/* Collection */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:24px;margin-top:40px}
+.card{border:1px solid #e0e0e0;display:flex;flex-direction:column;background:#fff}
+.card .ph{aspect-ratio:4/5;background:#eee;overflow:hidden}
+.card .ph img{width:100%;height:100%;object-fit:cover;display:block}
+.card .b{padding:16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card h3{font-family:var(--display);font-weight:400;font-size:1.4rem;letter-spacing:.03em;text-transform:uppercase}
+.card p{font-size:.92rem;color:#444}
+.price{font-weight:700;font-size:1.1rem;margin-top:auto;padding-top:8px}
+.card .btn{margin-top:10px;padding:12px;text-align:center;font-size:.9rem}
+.empty{border:2px dashed #444;padding:64px 24px;text-align:center;margin-top:40px}
+.empty h3{font-family:var(--display);font-weight:400;font-size:clamp(1.8rem,4vw,2.6rem);text-transform:uppercase;letter-spacing:.03em}
+.empty p{color:#aaa;margin:8px auto 24px;max-width:44ch}
+
+/* À propos / contact */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+dl{display:grid;grid-template-columns:auto 1fr;gap:12px 24px;margin:8px 0 28px}
+dt{color:var(--mute)}dd a{font-weight:700}
+.actions{display:flex;gap:14px;flex-wrap:wrap}
+address{font-style:normal;font-size:1.15rem;margin:8px 0 24px;line-height:1.5}
+
+/* Footer & Stroke Draw Type (DOUBLE ONE) */
+footer{border-top:1px solid var(--line);padding:0 0 40px;color:var(--mute);font-size:.9rem;background:#fff}
+.footer-hero-brand{position:relative;width:100%;padding:56px 20px 40px;overflow:hidden;border-bottom:1px solid var(--line);background:#fafafa;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;user-select:none;transition:background .3s}
+.footer-hero-brand:hover{background:#f3f3f3}
+.sdt-container{width:min(1080px,94vw);margin:0 auto}
+#footer-sdt-svg{width:100%;height:auto;overflow:visible;display:block}
+#footer-sdt-svg text{font-family:var(--display),"Anton",sans-serif;font-size:162px;letter-spacing:.04em;font-weight:400;text-transform:uppercase}
+.sdt-ghost{fill:none;stroke:rgba(0,0,0,.08);stroke-width:2px}
+.sdt-filled{fill:#000;stroke:none}
+.sdt-stroke{fill:none;stroke:#000;stroke-width:2.4px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1800;stroke-dashoffset:1800}
+#sdt-pen-tip{fill:#fff;stroke:#000;stroke-width:2.5px;transition:opacity .2s}
+.sdt-hint{margin-top:12px;font-family:var(--display);font-size:.72rem;letter-spacing:.22em;color:#888;text-transform:uppercase;opacity:.8;display:flex;align-items:center;gap:8px}
+.sdt-hint::before,.sdt-hint::after{content:"";display:inline-block;width:18px;height:1px;background:#bbb}
+.footer-bottom{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:center;padding-top:32px}
+footer a{color:#000;font-weight:600}
+.social{display:flex;gap:18px}
+
+/* Crowd Canvas Animation dans À Propos (Skiper39) */
+#apropos{position:relative;overflow:hidden;padding-bottom:230px}
+.apropos-content{position:relative;z-index:2}
+.crowd-container{position:absolute;left:0;right:0;bottom:0;height:210px;pointer-events:none;overflow:hidden;z-index:1;background:linear-gradient(180deg,rgba(255,255,255,0) 0%,rgba(247,247,247,.9) 100%)}
+.crowd-divider{position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--line) 20%,var(--line) 80%,transparent)}
+.crowd-badge{position:absolute;top:10px;left:50%;transform:translateX(-50%);font-family:var(--display);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#888;padding:4px 14px;border:1px solid #e2e2e2;background:rgba(255,255,255,.92);backdrop-filter:blur(4px);border-radius:20px;z-index:3}
+#crowd-canvas{position:absolute;left:0;bottom:0;width:100%;height:100%;display:block}
+
+/* Appear Text (DOUBLE ONE) — Fin de Collection */
+.apt-export-host{width:100%;height:auto;overflow:hidden;margin-top:64px;border-top:2px solid #000;border-bottom:2px solid #000}
+.apt-frame{display:grid;place-items:center;width:100%;height:var(--apt-height,180px);overflow:hidden;background:var(--apt-bg,#000)}
+.apt-root{position:relative;width:min(100%,var(--apt-width,100%));height:min(100%,var(--apt-height,180px));overflow:hidden}
+.apt-grid{position:absolute;left:50%;top:50%;display:flex;flex-direction:column;align-items:center;row-gap:var(--apt-row-gap);will-change:transform}
+.apt-row{display:flex;align-items:center;column-gap:var(--apt-word-gap);white-space:nowrap;will-change:transform}
+.apt-word{display:inline-block;font-family:var(--apt-font);font-size:var(--apt-size);font-weight:var(--apt-weight);letter-spacing:var(--apt-tracking);text-transform:var(--apt-transform);line-height:var(--apt-leading);color:var(--apt-color);will-change:clip-path}
+
+@media (max-width:760px){
+  .cols{grid-template-columns:1fr;gap:40px}
+  nav ul{gap:16px}nav a{font-size:.85rem}
+  header .wrap{height:auto;min-height:64px;flex-wrap:wrap;padding:8px 0;gap:4px}
+  html{scroll-padding-top:110px}
+  section.blk{padding:64px 0}
+  #apropos{padding-bottom:190px}
+  .crowd-container{height:175px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.tunnel i{animation:none;opacity:.25;transform:scale(.3)}.tunnel i:nth-child(n+3){display:none}#crowd-canvas{display:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#collection">Aller à la collection</a>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#accueil" aria-label="DOUBLE ONE, accueil" id="logo-link"></a>
+    <nav aria-label="Navigation principale">
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="accueil">
+  <div class="stage" id="stage" aria-hidden="true"></div>
+  <div class="wrap inner">
+    <h1><span>Double</span><span class="two">One</span></h1>
+    <p class="tag">Streetwear\Oversize\Casual\ 
+      High Quality .</p>
+    <a class="btn-uiverse" href="#collection"><span>Collection</span></a>
+  </div>
+</section>
+
+<section class="blk" id="collection" style="background:#fff">
+  <div class="wrap">
+    <h2>Collection</h2>
+    <p class="lead">Les pièces DOUBLE ONE, disponibles en boutique à Bab Ezzouar.</p>
+
+    <!-- Tilted Grid Hero — Ruban cylindrique 3D incurvé avec les photos réelles -->
+    <div class="tilted-grid-hero" id="tilted-grid-hero" aria-label="Aperçu 3D de la collection DOUBLE ONE">
+      <div class="tgh-overlay">
+        <span class="tgh-tag">Collection Streetwear 2026</span>
+        <div class="tgh-footer">
+          <div>
+            <h3 class="tgh-title">Lookbook · Bab Ezzouar</h3>
+            <p class="tgh-subtitle">Défilement cylindrique 3D · Articles disponibles en boutique</p>
+          </div>
+          <span class="tgh-badge">9 Nouveaux Articles</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="products"></div>
+    <div class="soon">
+      <strong>Nouveaux articles bientôt</strong>
+      <span>Suivez-nous sur Instagram pour voir les arrivages en premier.</span>
+    </div>
+  </div>
+
+  <!-- Appear Text Banner (DOUBLE ONE) -->
+  <div class="apt-export-host">
+    <div class="apt-frame" style="--apt-width:100%;--apt-height:190px;--apt-bg:#000000;--apt-color:#ffffff;--apt-font:var(--display,'Anton',sans-serif);--apt-size:clamp(46px,7.5vw,96px);--apt-weight:400;--apt-tracking:4px;--apt-leading:1.8;--apt-transform:uppercase;--apt-row-gap:0px;--apt-word-gap:32px">
+      <div class="apt-root" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<section class="blk" id="apropos">
+  <div class="wrap cols apropos-content">
+    <div>
+      <h2>À propos</h2>
+      <p class="lead">DOUBLE ONE est une boutique de vêtements streetwear pour homme, installée à Bab Ezzouar, Alger. Des coupes modernes, un style urbain, une allure premium.</p>
+    </div>
+    <div>
+      <h2>Nous trouver</h2>
+      <address>DOUBLE ONE (clothing)<br>P59P+7C7, Bab Ezzouar<br>Alger, Algérie</address>
+      <a class="btn-uiverse" id="maps" target="_blank" rel="noopener" href="#"><span>Google Maps</span></a>
+    </div>
+  </div>
+
+  <!-- Skiper39 Crowd Canvas Animation (OpenPeeps Streetwear Crowd) -->
+  <div class="crowd-container" aria-hidden="true">
+    <div class="crowd-divider"></div>
+    <canvas id="crowd-canvas"></canvas>
+  </div>
+</section>
+
+<section class="blk dark" id="contact">
+  <div class="wrap cols">
+    <div>
+      <h2>Contact</h2>
+      <p class="lead">Une question sur un article, une taille, un arrivage ? Écrivez-nous, on répond vite.</p>
+    </div>
+    <div>
+      <dl>
+        <dt>Téléphone</dt><dd><a href="tel:+213773014399">0773 01 43 99</a></dd>
+        <dt>WhatsApp</dt><dd><a href="https://wa.me/213773014399" target="_blank" rel="noopener">0773 01 43 99</a></dd>
+        <dt>Horaires</dt><dd>Tous les jours, 10 h – 23 h</dd>
+        <dt>Instagram</dt><dd><a href="https://www.instagram.com/double_one.dz/?dlrf=cTQ3YzJkdnd6eWZp" target="_blank" rel="noopener">@double_one.dz</a></dd>
+      </dl>
+      <div class="actions">
+        <a class="btn solid" id="wa-main" href="https://wa.me/213773014399" target="_blank" rel="noopener">Nous contacter sur WhatsApp</a>
+        <a class="btn line" href="https://www.instagram.com/double_one.dz/?dlrf=cTQ3YzJkdnd6eWZp" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <!-- Stroke Draw Type Showcase (DOUBLE ONE) -->
+  <div class="footer-hero-brand" id="footer-stroke-wrap" title="Survoler pour drainer le liquide">
+    <div class="sdt-container" aria-label="DOUBLE ONE">
+      <svg id="footer-sdt-svg" viewBox="0 0 1000 190" preserveAspectRatio="xMidYMid meet">
+        <defs>
+          <filter id="sdt-tip-glow" x="-40%" y="-40%" width="180%" height="180%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="blur" />
+            <feMerge>
+              <feMergeNode in="blur" />
+              <feMergeNode in="SourceGraphic" />
+            </feMerge>
+          </filter>
+          <clipPath id="sdt-liquid-clip">
+            <path id="sdt-liquid-path" d="M 0 190 L 1000 190 L 1000 190 L 0 190 Z" />
+          </clipPath>
+        </defs>
+        
+        <!-- Contours légers d'arrière-plan -->
+        <text class="sdt-ghost" x="500" y="142" text-anchor="middle">DOUBLE ONE</text>
+        
+        <!-- Remplissage liquide montant depuis le bas -->
+        <g clip-path="url(#sdt-liquid-clip)">
+          <text class="sdt-filled" x="500" y="142" text-anchor="middle">DOUBLE ONE</text>
+        </g>
+        
+        <!-- Tracé qui se dessine avec le stylet -->
+        <text id="sdt-stroke-text" class="sdt-stroke" x="500" y="142" text-anchor="middle">DOUBLE ONE</text>
+        
+        <!-- Pointe lumineuse qui accompagne le tracé -->
+        <circle id="sdt-pen-tip" cx="120" cy="80" r="5" filter="url(#sdt-tip-glow)" opacity="0" />
+      </svg>
+    </div>
+    <div class="sdt-hint"><span>SURVOLER POUR DRAINER LE LIQUIDE</span></div>
+  </div>
+
+  <div class="wrap footer-bottom">
+    <div>© <span id="yr"></span> DOUBLE ONE · Bab Ezzouar, Alger · <a href="tel:+213773014399">0773 01 43 99</a></div>
+    <div class="social">
+      <a href="https://www.instagram.com/double_one.dz/?dlrf=cTQ3YzJkdnd6eWZp" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/213773014399" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+/* =========================================================
+   CONFIGURATION — le seul endroit à modifier pour le contenu
+   ========================================================= */
+
+// Logo : mettre le chemin du fichier original (ex. "logo.png").
+// Laisser vide pour afficher un logotype texte provisoire.
+const LOGO_SRC = "assets/logo.png";
+
+const WHATSAPP = "213773014399";
+const MAPS_URL = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent("DOUBLE ONE clothing P59P+7C7 Bab Ezzouar Alger");
+
+/* ARTICLES — ajouter un objet par article.
+   Exemple :
+   { name: "Hoodie Noir Oversize",
+     description: "Coton épais, coupe ample.",
+     price: 6500,                 // en DA
+     image: "photos/hoodie-noir.jpg" }
+*/
+const PRODUCTS = [
+  {
+    name: "Hoodie Zip Boxy Black Edition",
+    description: "Coton peigné lourd 450 GSM, zip métal intégral, sérigraphie embossée.",
+    price: 6500,
+    image: "assets/articles/hoodie-zip-noir.jpg"
+  },
+  {
+    name: "Pantalon Jogger Graphic Double One",
+    description: "Coton molleton épais, coupe loose streetwear, print signature blanc.",
+    price: 5400,
+    image: "assets/articles/jogger-graphic-noir.jpg"
+  },
+  {
+    name: "Jean Baggy Skater Bleu Clair",
+    description: "Denim bleached délavé clair, coupe ultra baggy skater, finitions authentiques.",
+    price: 5900,
+    image: "assets/articles/jean-baggy-bleu-clair.jpg"
+  },
+  {
+    name: "Pull Maille Côtelée Bordeaux",
+    description: "Tricot lourd col rond, coupe structurée premium, broderie iconique.",
+    price: 6200,
+    image: "assets/articles/pull-tricot-bordeaux.jpg"
+  },
+  {
+    name: "Sweat Half-Zip Beige 'Saint'",
+    description: "Col montant zippé métal, broderie torse glitter, intérieur fleece doux.",
+    price: 6400,
+    image: "assets/articles/sweat-half-zip-beige-saint.jpg"
+  },
+  {
+    name: "Jean Wide Leg Noir Délavé",
+    description: "Denim lourd 13.5 oz, coupe large relaxed, délavage vintage.",
+    price: 5800,
+    image: "assets/articles/jean-noir-wide.jpg"
+  },
+  {
+    name: "Hoodie Bleu 'Spirits of a Dreamer'",
+    description: "Bleu cobalt vibrant, broderie cursive dos haute précision, coupe boxy.",
+    price: 6600,
+    image: "assets/articles/hoodie-bleu-spirits.jpg"
+  },
+  {
+    name: "Jean Baggy Vintage Acid Grey",
+    description: "Denim authentique épais, coupe baggy streetwear, effet marbré.",
+    price: 5800,
+    image: "assets/articles/jean-gris-vintage.jpg"
+  },
+  {
+    name: "Jean Regular Noir Surpiqûres",
+    description: "Denim brut lavé noir profond, surpiqûres blanches contrastées, coupe droite.",
+    price: 5600,
+    image: "assets/articles/jean-noir-surpiqures.jpg"
+  }
+];
+
+/* ========================================================= */
+
+// Logo
+(function(){
+  const a = document.getElementById("logo-link");
+  if (LOGO_SRC) {
+    a.innerHTML = '<img src="' + LOGO_SRC + '" alt="DOUBLE ONE Logo"><span>DOUBLE ONE</span>';
+  } else {
+    a.innerHTML = '<span class="mark" aria-hidden="true"><span>1</span><span>1</span></span><span>DOUBLE ONE</span>';
+  }
+})();
+
+// Liens
+document.getElementById("maps").href = MAPS_URL;
+document.getElementById("yr").textContent = new Date().getFullYear();
+
+function igCommander(name, price) {
+  var msg = 'Bonjour DOUBLE ONE \uD83D\uDC4B\nJe veux commander : ' + name + '\nPrix : ' + price;
+  if (navigator.clipboard) { navigator.clipboard.writeText(msg).catch(function(){}); }
+  // Toast
+  var t = document.getElementById('ig-toast');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = 'ig-toast';
+    t.style.cssText = 'position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%) translateY(100px);background:#111;color:#fff;padding:.8rem 1.6rem;border-radius:2rem;font-size:.85rem;font-family:inherit;box-shadow:0 4px 24px rgba(0,0,0,.5);z-index:9999;transition:transform .4s cubic-bezier(.34,1.56,.64,1),opacity .4s;opacity:0;white-space:nowrap;display:flex;align-items:center;gap:.6rem;pointer-events:none';
+    document.body.appendChild(t);
+  }
+  t.innerHTML = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Message copié ! Collez-le dans le DM <strong>@double_one.dz</strong></span>';
+  t.style.opacity = '1';
+  t.style.transform = 'translateX(-50%) translateY(0)';
+  clearTimeout(t._tid);
+  t._tid = setTimeout(function() {
+    t.style.opacity = '0'; t.style.transform = 'translateX(-50%) translateY(100px)';
+  }, 3500);
+  setTimeout(function() { window.open('https://www.instagram.com/double_one.dz/', '_blank', 'noopener'); }, 400);
+}
+// Délégation de clic (pas d'inline JS — aucun problème d'échappement)
+document.addEventListener('click', function(e) {
+  var btn = e.target.closest('[data-ig-name]');
+  if (btn) igCommander(btn.getAttribute('data-ig-name'), btn.getAttribute('data-ig-price'));
+});
+
+// Collection
+(function(){
+  var box = document.getElementById('products');
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function(c) {
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+  if (!PRODUCTS.length) {
+    box.innerHTML = '<div class="empty"><h3>Collection bient\u00f4t disponible</h3>'
+      + '<p>Les premiers articles arrivent. Passez en boutique ou \u00e9crivez-nous pour conna\u00eetre les nouveaut\u00e9s.</p>'
+      + '<a class="btn solid" href="https://www.instagram.com/double_one.dz/" target="_blank" rel="noopener">Nous contacter sur Instagram</a></div>';
+    return;
+  }
+  function fmt(n) {
+    return new Intl.NumberFormat('fr-DZ').format(n).replace(/[\u202f\u00a0]/g, ' ') + ' DA';
+  }
+  box.innerHTML = '<div class="grid">' + PRODUCTS.map(function(p) {
+    var price = fmt(p.price);
+    return '<article class="card">'
+      + '<div class="ph"><img src="' + esc(p.image) + '" alt="' + esc(p.name) + '" loading="lazy"></div>'
+      + '<div class="b">'
+      + '<h3>' + esc(p.name) + '</h3>'
+      + '<p>' + esc(p.description || '') + '</p>'
+      + '<div class="price">' + price + '</div>'
+      + '<button class="btn solid" data-ig-name="' + esc(p.name) + '" data-ig-price="' + esc(price) + '">Commander sur Instagram</button>'
+      + '</div></article>';
+  }).join('') + '</div>';
+})();
+
+// Hero tunnel : défilement 3D. Le scroll de la page n'est capturé que pendant la traversée.
+(function(){
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const hero = document.getElementById("accueil"), stage = document.getElementById("stage");
+  const ITEMS = [
+    { title: "DOUBLE ONE", src: "assets/articles/hoodie-zip-noir.jpg" },
+    { title: "Streetwear", src: "assets/articles/jogger-graphic-noir.jpg" },
+    { title: "Bab Ezzouar", src: "assets/articles/jean-baggy-bleu-clair.jpg" },
+    { title: "Alger", src: "assets/articles/pull-tricot-bordeaux.jpg" },
+    { title: "Bientôt", src: "assets/articles/sweat-half-zip-beige-saint.jpg" },
+    { title: "Nouveaux articles", src: "assets/articles/jean-noir-wide.jpg" },
+    { title: "Urbain", src: "assets/articles/hoodie-bleu-spirits.jpg" },
+    { title: "Premium", src: "assets/articles/jean-gris-vintage.jpg" },
+    { title: "11", src: "assets/articles/jean-noir-surpiqures.jpg" }
+  ];
+  const texts = hero.querySelectorAll("h1, p.tag");
+  const hint = document.createElement("p");
+  hint.textContent = "Faites défiler";
+  hint.style.cssText = "position:absolute;bottom:20px;left:0;right:0;text-align:center;font-size:.75rem;letter-spacing:.3em;text-transform:uppercase;color:#888;pointer-events:none";
+  hero.appendChild(hint);
+  const N = ITEMS.length, SPAN = .55;
+  const cards = ITEMS.map((it, i) => {
+    const el = document.createElement("div"); el.className = "tc";
+    if (it.src) {
+      const im = new Image(); im.src = it.src; im.alt = it.title || ""; im.loading = "lazy";
+      el.appendChild(im);
+      if (it.title) {
+        const lbl = document.createElement("span");
+        lbl.className = "tc-lbl";
+        lbl.textContent = it.title;
+        el.appendChild(lbl);
+      }
+    } else {
+      el.textContent = it.title;
+    }
+    stage.appendChild(el);
+    const a = i * 137.5 * Math.PI / 180;
+    return { el, start:(i/N)*(1-SPAN), c:Math.cos(a), s:Math.sin(a), rx:.28+(i%3)*.08, ry:.26+(i%2)*.09, rot:(i%2?-1:1)*(3+(i%5)*2), z:i+1 };
+  });
+  const clamp = (v, a=0, b=1) => Math.min(b, Math.max(a, v));
+  let target = .1, p = .1, tx = 0, ty = 0, px = 0, py = 0, running = false;
+  function render(){
+    const w = hero.clientWidth, h = hero.clientHeight, m = w < 768;
+    const cw = m ? clamp(w*.38,130,180) : clamp(w*.18,180,270);
+    const far = m ? -1200 : -1700, near = m ? 350 : 500, pan = m ? 20 : 45;
+    stage.style.perspective = (m ? 900 : 1200) + "px";
+    for (const k of cards) {
+      const lp = clamp((p - k.start) / SPAN);
+      const z = far + (near - far) * lp;
+      const o = lp < .18 ? lp/.18 : lp < .82 ? 1 : lp < .98 ? (.98-lp)/.16 : 0;
+      const x = k.c*w*k.rx - px*pan, y = k.s*h*k.ry - py*pan;
+      k.el.style.width = cw + "px";
+      k.el.style.opacity = o;
+      k.el.style.zIndex = k.z;
+      k.el.style.transform = `translate3d(calc(-50% + ${x}px), calc(-50% + ${y}px), ${z}px) rotateZ(${k.rot}deg)`;
+    }
+    const sc = p < .5 ? .85 + .3*p : 1 + .5*(p-.5);
+    const op = p < .12 ? .6 + .4*(p/.12) : p < .85 ? 1 : clamp((1-p)/.15);
+    texts.forEach(t => { t.style.transform = `scale(${sc})`; t.style.opacity = op; });
+    hint.style.opacity = clamp(1 - p/.4);
+  }
+  function frame(){
+    p += (target - p) * .08; px += (tx - px) * .06; py += (ty - py) * .06;
+    render();
+    if (Math.abs(target-p) > .0005 || Math.abs(tx-px) > .001 || Math.abs(ty-py) > .001) requestAnimationFrame(frame); else running = false;
+  }
+  function kick(){ if (!running) { running = true; requestAnimationFrame(frame); } }
+  function move(d, e){
+    if (window.scrollY > 8) return;
+    const n = clamp(target + d);
+    if (n === target) return;            // bords atteints : le scroll normal reprend
+    if (e.cancelable) e.preventDefault();
+    target = n; kick();
+  }
+  hero.addEventListener("wheel", e => move(e.deltaY * .0008, e), { passive:false });
+  let ly = 0;
+  hero.addEventListener("touchstart", e => { ly = e.touches[0].clientY; }, { passive:true });
+  hero.addEventListener("touchmove", e => { const y = e.touches[0].clientY; move((ly - y) * .003, e); ly = y; }, { passive:false });
+  window.addEventListener("pointermove", e => { tx = (e.clientX/innerWidth - .5)*2; ty = (e.clientY/innerHeight - .5)*2; kick(); }, { passive:true });
+  window.addEventListener("resize", render);
+  render();
+})();
+
+// Lookbook Cylindrique 3D (Photos entières sans lamelles sur courbe 3D)
+(function initTiltedGridHero(){
+  const container = document.getElementById("tilted-grid-hero");
+  if (!container) return;
+
+  const IMAGES = [
+    { src: "assets/articles/hoodie-zip-noir.jpg", title: "Hoodie Zip Boxy Black", price: "6 500 DA" },
+    { src: "assets/articles/jogger-graphic-noir.jpg", title: "Pantalon Jogger Graphic", price: "5 400 DA" },
+    { src: "assets/articles/jean-baggy-bleu-clair.jpg", title: "Jean Baggy Skater Bleached", price: "5 900 DA" },
+    { src: "assets/articles/pull-tricot-bordeaux.jpg", title: "Pull Maille Côtelée Bordeaux", price: "6 200 DA" },
+    { src: "assets/articles/sweat-half-zip-beige-saint.jpg", title: "Sweat Half-Zip Saint", price: "6 400 DA" },
+    { src: "assets/articles/jean-noir-wide.jpg", title: "Jean Wide Leg Noir Délavé", price: "5 800 DA" },
+    { src: "assets/articles/hoodie-bleu-spirits.jpg", title: "Hoodie Bleu Spirits Cobalt", price: "6 600 DA" },
+    { src: "assets/articles/jean-gris-vintage.jpg", title: "Jean Baggy Vintage Acid Grey", price: "5 800 DA" },
+    { src: "assets/articles/jean-noir-surpiqures.jpg", title: "Jean Regular Noir Surpiqûres", price: "5 600 DA" }
+  ];
+
+  let track = container.querySelector(".tgh-track");
+  if (!track) {
+    track = document.createElement("div");
+    track.className = "tgh-track";
+    container.prepend(track);
+  }
+  track.innerHTML = "";
+
+  const N = IMAGES.length;
+  const cards = IMAGES.map((item, i) => {
+    const el = document.createElement("div");
+    el.className = "tgh-card";
+    el.innerHTML = `
+      <img src="${item.src}" alt="${item.title}" loading="lazy" />
+      <div class="tgh-card-info">
+        <span class="tgh-card-name">${item.title}</span>
+        <span class="tgh-card-price">${item.price}</span>
+      </div>
+    `;
+    track.appendChild(el);
+    return { el, index: i };
+  });
+
+  let progress = 0;
+  let isHovered = false;
+  container.addEventListener("mouseenter", () => { isHovered = true; });
+  container.addEventListener("mouseleave", () => { isHovered = false; });
+
+  let startX = 0, isDragging = false;
+  container.addEventListener("pointerdown", e => {
+    isDragging = true;
+    startX = e.clientX;
+  });
+  window.addEventListener("pointermove", e => {
+    if (!isDragging) return;
+    const dx = e.clientX - startX;
+    startX = e.clientX;
+    progress -= dx * 0.0012;
+  });
+  window.addEventListener("pointerup", () => { isDragging = false; });
+
+  function tick() {
+    if (!isHovered && !isDragging) {
+      progress += 0.0014;
+    }
+    const w = container.clientWidth;
+    const radius = Math.max(520, w * 0.72);
+
+    cards.forEach((card, i) => {
+      const frac = ((i / N - progress) % 1 + 1) % 1;
+      const normAngle = frac * 360 - 180;
+      const rad = normAngle * Math.PI / 180;
+
+      if (normAngle > -92 && normAngle < 92) {
+        card.el.style.display = "block";
+        const x = Math.sin(rad) * radius;
+        const z = (Math.cos(rad) - 1) * radius * 0.95;
+        const absAngle = Math.abs(normAngle);
+        const op = absAngle > 60 ? (88 - absAngle) / 28 : 1;
+        card.el.style.opacity = Math.max(0, Math.min(1, op)).toFixed(3);
+        card.el.style.transform = `translate3d(${x.toFixed(1)}px, 0, ${z.toFixed(1)}px) rotateY(${normAngle.toFixed(1)}deg)`;
+        card.el.style.zIndex = Math.round(z + 2000);
+      } else {
+        card.el.style.display = "none";
+      }
+    });
+
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+})();
+
+/* =========================================================
+   CROWD CANVAS (Skiper39) — Animation silhouettes streetwear
+   ========================================================= */
+(function() {
+  const canvas = document.getElementById("crowd-canvas");
+  if (!canvas) return;
+
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return;
+
+  const config = {
+    src: "assets/peeps.png",
+    rows: 15,
+    cols: 7,
+  };
+
+  const randomRange = (min, max) => min + Math.random() * (max - min);
+  const randomIndex = (array) => randomRange(0, array.length) | 0;
+  const removeFromArray = (array, i) => array.splice(i, 1)[0];
+  const removeItemFromArray = (array, item) => removeFromArray(array, array.indexOf(item));
+  const removeRandomFromArray = (array) => removeFromArray(array, randomIndex(array));
+  const getRandomFromArray = (array) => array[randomIndex(array) | 0];
+
+  const resetPeep = ({ stage, peep }) => {
+    const direction = Math.random() > 0.5 ? 1 : -1;
+    const offsetY = 25 - 90 * (window.gsap ? gsap.parseEase("power2.in")(Math.random()) : Math.random());
+    const startY = stage.height - peep.height + offsetY;
+    let startX, endX;
+
+    if (direction === 1) {
+      startX = -peep.width;
+      endX = stage.width;
+      peep.scaleX = 1;
+    } else {
+      startX = stage.width + peep.width;
+      endX = 0;
+      peep.scaleX = -1;
+    }
+
+    peep.x = startX;
+    peep.y = startY;
+    peep.anchorY = startY;
+
+    return { startX, startY, endX };
+  };
+
+  const normalWalk = ({ peep, props }) => {
+    const { startX, startY, endX } = props;
+    const xDuration = 11;
+    const yDuration = 0.26;
+
+    if (!window.gsap) {
+      peep.x = startX;
+      return null;
+    }
+
+    const tl = gsap.timeline();
+    tl.timeScale(randomRange(0.65, 1.35));
+    tl.to(peep, {
+      duration: xDuration,
+      x: endX,
+      ease: "none",
+    }, 0);
+    tl.to(peep, {
+      duration: yDuration,
+      repeat: xDuration / yDuration,
+      yoyo: true,
+      y: startY - 8,
+    }, 0);
+
+    return tl;
+  };
+
+  const walks = [normalWalk];
+  const stage = { width: 0, height: 0 };
+  const allPeeps = [];
+  const availablePeeps = [];
+  const crowd = [];
+
+  const createPeep = ({ image, rect, scale }) => {
+    return {
+      image,
+      rect,
+      width: rect[2] * scale,
+      height: rect[3] * scale,
+      x: 0,
+      y: 0,
+      anchorY: 0,
+      scaleX: 1,
+      walk: null,
+      render: function(context) {
+        context.save();
+        context.translate(this.x, this.y);
+        context.scale(this.scaleX, 1);
+        context.drawImage(
+          this.image,
+          this.rect[0],
+          this.rect[1],
+          this.rect[2],
+          this.rect[3],
+          0,
+          0,
+          this.width,
+          this.height
+        );
+        context.restore();
+      }
+    };
+  };
+
+  const createPeeps = (img) => {
+    const { rows, cols } = config;
+    const width = img.naturalWidth || 3600;
+    const height = img.naturalHeight || 2268;
+    const total = rows * cols;
+    const rectWidth = width / rows;
+    const rectHeight = height / cols;
+    const targetHeight = Math.min(140, Math.max(90, stage.height * 0.65));
+    const scale = targetHeight / rectHeight;
+
+    allPeeps.length = 0;
+    for (let i = 0; i < total; i++) {
+      allPeeps.push(
+        createPeep({
+          image: img,
+          rect: [
+            (i % rows) * rectWidth,
+            ((i / rows) | 0) * rectHeight,
+            rectWidth,
+            rectHeight,
+          ],
+          scale: scale,
+        })
+      );
+    }
+  };
+
+  const addPeepToCrowd = () => {
+    if (!availablePeeps.length) return null;
+    const peep = removeRandomFromArray(availablePeeps);
+    if (!window.gsap) return null;
+
+    const walk = getRandomFromArray(walks)({
+      peep,
+      props: resetPeep({ peep, stage }),
+    });
+
+    if (walk) {
+      walk.eventCallback("onComplete", () => {
+        removePeepFromCrowd(peep);
+        addPeepToCrowd();
+      });
+      peep.walk = walk;
+    }
+
+    crowd.push(peep);
+    crowd.sort((a, b) => a.anchorY - b.anchorY);
+    return peep;
+  };
+
+  const removePeepFromCrowd = (peep) => {
+    removeItemFromArray(crowd, peep);
+    availablePeeps.push(peep);
+  };
+
+  const initCrowd = () => {
+    while (availablePeeps.length) {
+      const p = addPeepToCrowd();
+      if (p && p.walk) p.walk.progress(Math.random());
+    }
+  };
+
+  const render = () => {
+    if (!canvas) return;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    const dpr = window.devicePixelRatio || 1;
+    ctx.save();
+    ctx.scale(dpr, dpr);
+
+    crowd.forEach((peep) => {
+      peep.render(ctx);
+    });
+
+    ctx.restore();
+  };
+
+  const img = new Image();
+
+  const resize = () => {
+    if (!canvas) return;
+    const rect = canvas.getBoundingClientRect();
+    stage.width = rect.width || canvas.clientWidth;
+    stage.height = rect.height || canvas.clientHeight;
+    if (stage.width === 0 || stage.height === 0) return;
+
+    const dpr = window.devicePixelRatio || 1;
+    canvas.width = stage.width * dpr;
+    canvas.height = stage.height * dpr;
+
+    crowd.forEach((peep) => {
+      if (peep.walk) peep.walk.kill();
+    });
+    crowd.length = 0;
+
+    createPeeps(img);
+    availablePeeps.length = 0;
+    availablePeeps.push(...allPeeps);
+
+    initCrowd();
+  };
+
+  const init = () => {
+    resize();
+    if (window.gsap && gsap.ticker) {
+      gsap.ticker.add(render);
+    } else {
+      const loop = () => { render(); requestAnimationFrame(loop); };
+      requestAnimationFrame(loop);
+    }
+    window.addEventListener("resize", resize);
+  };
+
+  img.onload = init;
+  img.src = config.src;
+})();
+
+/* =========================================================
+   STROKE DRAW TYPE (DOUBLE ONE) — Tracé & Remplissage Liquide
+   ========================================================= */
+(function() {
+  const wrap = document.getElementById("footer-stroke-wrap");
+  const strokeText = document.getElementById("sdt-stroke-text");
+  const liquidPath = document.getElementById("sdt-liquid-path");
+  const penTip = document.getElementById("sdt-pen-tip");
+  if (!wrap || !strokeText || !liquidPath) return;
+
+  let totalLength = 1800;
+  try {
+    const len = strokeText.getComputedTextLength ? strokeText.getComputedTextLength() : 820;
+    if (len > 100) totalLength = Math.max(1600, len * 2.3);
+  } catch(e) {}
+
+  strokeText.style.strokeDasharray = totalLength + " " + totalLength;
+  strokeText.style.strokeDashoffset = totalLength;
+
+  const state = {
+    drawProgress: 0,
+    fillLevel: 0,
+    targetFill: 1,
+    wavePhase: 0,
+    isHovered: false,
+    started: false
+  };
+
+  function updateLiquidPath(level, phase) {
+    const H = 190;
+    // Map level 0..1 to height (from 190 down to 20)
+    const y = H - (level * (H - 22));
+    const amp = (level > 0.02 && level < 0.98) ? 6 : (level > 0 ? 1.5 : 0);
+
+    let d = "M 0 190 L 0 " + y.toFixed(1);
+    const steps = 14;
+    for (let i = 0; i <= steps; i++) {
+      const x = (1000 / steps) * i;
+      const wy = y + Math.sin(x * 0.018 + phase) * amp + Math.cos(x * 0.032 - phase * 0.8) * (amp * 0.5);
+      d += " L " + x.toFixed(1) + " " + wy.toFixed(1);
+    }
+    d += " L 1000 190 Z";
+    liquidPath.setAttribute("d", d);
+  }
+
+  function tick() {
+    state.wavePhase += 0.055;
+    const speed = state.isHovered ? 0.045 : 0.028;
+    state.fillLevel += (state.targetFill - state.fillLevel) * speed;
+
+    updateLiquidPath(state.fillLevel, state.wavePhase);
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+
+  function startAnimation() {
+    if (state.started) return;
+    state.started = true;
+
+    if (window.gsap) {
+      if (penTip) penTip.setAttribute("opacity", "1");
+
+      gsap.to(state, {
+        drawProgress: 1,
+        duration: 1.8,
+        ease: "power2.inOut",
+        onUpdate: function() {
+          const off = totalLength * (1 - state.drawProgress);
+          strokeText.style.strokeDashoffset = off.toFixed(1);
+          if (penTip) {
+            const px = 110 + state.drawProgress * 780;
+            const py = 120 + Math.sin(state.drawProgress * Math.PI * 4.5) * 22;
+            penTip.setAttribute("cx", px.toFixed(1));
+            penTip.setAttribute("cy", py.toFixed(1));
+          }
+        },
+        onComplete: function() {
+          if (penTip) {
+            gsap.to(penTip, { opacity: 0, duration: 0.4 });
+          }
+          gsap.to(state, {
+            targetFill: 1,
+            duration: 1.1,
+            ease: "power2.out"
+          });
+        }
+      });
+    } else {
+      strokeText.style.strokeDashoffset = "0";
+      state.targetFill = 1;
+    }
+  }
+
+  wrap.addEventListener("pointerenter", function() {
+    state.isHovered = true;
+    state.targetFill = 0.06; // drains down leaving a small pool
+  });
+
+  wrap.addEventListener("pointerleave", function() {
+    state.isHovered = false;
+    state.targetFill = 1; // refills like liquid in a glass
+  });
+
+  wrap.addEventListener("click", function() {
+    state.targetFill = 0;
+    strokeText.style.strokeDashoffset = totalLength;
+    state.started = false;
+    startAnimation();
+  });
+
+  if ("IntersectionObserver" in window) {
+    const io = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) {
+        startAnimation();
+        io.disconnect();
+      }
+    }, { threshold: 0.25 });
+    io.observe(wrap);
+  } else {
+    startAnimation();
+  }
+})();
+
+/* =========================================================
+   APPEAR TEXT (DOUBLE ONE) — Animation de texte répétée
+   ========================================================= */
+(function() {
+  const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+  const mix = (a, b, t) => a + (b - a) * t;
+  const seg = (t, a, b) => clamp((t - a) / Math.max(b - a, 1e-6), 0, 1);
+  const ease = (t) => {
+    const x = clamp(t, 0, 1);
+    return x * x * x * (x * (x * 6 - 15) + 10);
+  };
+  const oddUp = (value) => {
+    const n = Math.max(1, Math.round(value));
+    return n % 2 === 0 ? n + 1 : n;
+  };
+
+  const REST_FLOOR = 0.05;
+  const RESET_SHARE = 0.35;
+  const REVEAL_SHARE = 0.75;
+  const CUT_SHARE = 0.5;
+
+  function timelineFor({ expandSeconds, holdSeconds } = {}) {
+    const spread = Math.max(0.100007, Number(expandSeconds) || 0);
+    const held = Math.max(0, Number(holdSeconds) || 0);
+    const tSpread = spread;
+    const tWipe = tSpread + spread;
+    const tWord = tWipe + held;
+    const tReset = tWord + spread * RESET_SHARE;
+    const tReveal = tReset + spread * REVEAL_SHARE;
+    const total = tReveal + Math.max(0.200002, held * 0.4);
+    return { tSpread, tWipe, tWord, tReset, tReveal, total };
+  }
+
+  function gridPlan(config = {}) {
+    const rowCount = oddUp(config.rowCount ?? 1);
+    const wordCount = oddUp(config.repeatCount ?? 5);
+    const centerRow = (rowCount - 1) / 2;
+    const centerWord = (wordCount - 1) / 2;
+    const shift = Number(config.driftDistance) || 0;
+    const rest = clamp((Number(config.restingOffset) || 0) / 100, REST_FLOOR, 1);
+    const reach = Math.max(centerRow, 1);
+
+    const rows = [];
+    for (let row = 0; row < rowCount; row += 1) {
+      const distance = Math.abs(row - centerRow);
+      const magnitude = shift * (0.7 + 0.9 * (distance / reach));
+      const direction = row % 2 === 0 ? 1 : -1;
+      const full = direction * magnitude;
+      const leftToRight = direction > 0;
+      const words = [];
+      for (let word = 0; word < wordCount; word += 1) {
+        const along = wordCount > 1 ? word / (wordCount - 1) : 0;
+        words.push({
+          index: word,
+          hero: row === centerRow && word === centerWord,
+          sweepT: leftToRight ? along : 1 - along
+        });
+      }
+      rows.push({
+        index: row,
+        hero: row === centerRow,
+        leftToRight,
+        full,
+        home: full * rest,
+        words
+      });
+    }
+    return { rowCount, wordCount, centerRow, centerWord, rows };
+  }
+
+  function rowOffsetAt(row, timeline, t) {
+    const { tSpread, tWipe, tWord, tReset, tReveal } = timeline;
+    if (t <= tSpread) return mix(row.home, row.full, ease(seg(t, 0, tSpread)));
+    if (row.hero) {
+      if (t <= tWipe) return mix(row.full, 0, ease(seg(t, tSpread, tWipe)));
+      if (t <= tReset) return 0;
+      if (t <= tReveal) return mix(0, row.home, ease(seg(t, tReset, tReveal)));
+      return row.home;
+    }
+    if (t <= tWord) return row.full;
+    if (t <= tReset) return mix(row.full, row.home, ease(seg(t, tWord, tReset)));
+    return row.home;
+  }
+
+  function wordCoverAt(sweepT, timeline, t) {
+    const { tSpread, tWipe, tReset, tReveal } = timeline;
+    const cutOut = (tWipe - tSpread) * CUT_SHARE;
+    const outStart = tSpread + sweepT * (tWipe - tSpread - cutOut);
+    const outEnd = outStart + cutOut;
+    if (t <= outStart) return 0;
+    if (t <= outEnd) return ease(seg(t, outStart, outEnd));
+    if (t <= tReset) return 1;
+    const cutIn = (tReveal - tReset) * CUT_SHARE;
+    const inStart = tReset + sweepT * (tReveal - tReset - cutIn);
+    const inEnd = inStart + cutIn;
+    if (t <= inStart) return 1;
+    if (t <= inEnd) return 1 - ease(seg(t, inStart, inEnd));
+    return 0;
+  }
+
+  function zoomAt(timeline, zoom, t) {
+    const { tSpread, tWipe } = timeline;
+    if (t <= tSpread) return mix(1, zoom, ease(seg(t, 0, tSpread)));
+    if (t <= tWipe) return mix(zoom, 1, ease(seg(t, tSpread, tWipe)));
+    return 1;
+  }
+
+  function clipFor(cover, leftToRight) {
+    if (cover <= 0.000500004) return 'inset(0% 0% 0% 0%)';
+    const cut = (clamp(cover, 0, 1) * 100).toFixed(3);
+    return leftToRight ? `inset(0% 0% 0% ${cut}%)` : `inset(0% ${cut}% 0% 0%)`;
+  }
+
+  function buildAppearText(root, initial = {}) {
+    if (!root) return { setConfig() {}, destroy() {} };
+    const doc = root.ownerDocument;
+    const win = doc?.defaultView;
+    if (!win) return { setConfig() {}, destroy() {} };
+
+    const reduced = win.matchMedia('(prefers-reduced-motion: reduce)');
+    let config = { ...initial };
+    let plan = gridPlan(config);
+    let timeline = timelineFor(config);
+    let grid = null;
+    let rowNodes = [];
+    let raf = 0;
+    let last = 0;
+    let clock = 0;
+    let visible = true;
+    let destroyed = false;
+
+    const still = () => reduced.matches || !(Number(config.expandSeconds) > 0);
+    const wrote = new Map();
+    const write = (node, key, value) => {
+      const id = `${key}:${node.__aptId}`;
+      if (wrote.get(id) === value) return;
+      wrote.set(id, value);
+      if (key === 'transform') node.style.transform = value;
+      else node.style.clipPath = value;
+    };
+
+    function buildDom() {
+      wrote.clear();
+      grid = doc.createElement('div');
+      grid.className = 'apt-grid';
+      grid.__aptId = 'grid';
+      rowNodes = [];
+      const text = String(config.text ?? '');
+      let id = 0;
+      for (const row of plan.rows) {
+        const rowNode = doc.createElement('div');
+        rowNode.className = 'apt-row';
+        rowNode.__aptId = `r${row.index}`;
+        const words = [];
+        for (const word of row.words) {
+          const span = doc.createElement('span');
+          span.className = word.hero ? 'apt-word apt-word--hero' : 'apt-word';
+          span.__aptId = `w${(id += 1)}`;
+          span.textContent = text;
+          rowNode.appendChild(span);
+          words.push({ node: span, model: word });
+        }
+        grid.appendChild(rowNode);
+        rowNodes.push({ node: rowNode, model: row, words });
+      }
+      root.replaceChildren(grid);
+    }
+
+    function pose(t) {
+      write(grid, 'transform', `translate(-50%,-50%) scale(${zoomAt(timeline, config.zoomScale ?? 1, t).toFixed(4)})`);
+      for (const row of rowNodes) {
+        write(row.node, 'transform', `translate3d(${rowOffsetAt(row.model, timeline, t).toFixed(2)}px,0,0)`);
+        for (const word of row.words) {
+          if (word.model.hero) continue;
+          write(word.node, 'clip', clipFor(wordCoverAt(word.model.sweepT, timeline, t), row.model.leftToRight));
+        }
+      }
+    }
+
+    function poseAtRest() {
+      write(grid, 'transform', 'translate(-50%,-50%) scale(1)');
+      for (const row of rowNodes) {
+        write(row.node, 'transform', `translate3d(${row.model.home.toFixed(2)}px,0,0)`);
+        for (const word of row.words) {
+          if (word.model.hero) continue;
+          write(word.node, 'clip', 'inset(0% 0% 0% 0%)');
+        }
+      }
+    }
+
+    function tick(time) {
+      raf = 0;
+      if (destroyed || !visible || doc.hidden) return;
+      const delta = last ? clamp((time - last) / 1000, 0, 0.0500002) : 0;
+      last = time;
+      clock = (clock + delta) % timeline.total;
+      pose(clock);
+      raf = win.requestAnimationFrame(tick);
+    }
+
+    function schedule() {
+      if (destroyed || raf || !visible || doc.hidden) return;
+      if (still()) {
+        poseAtRest();
+        return;
+      }
+      last = 0;
+      raf = win.requestAnimationFrame(tick);
+    }
+
+    function stop() {
+      if (raf) win.cancelAnimationFrame(raf);
+      raf = 0;
+      last = 0;
+    }
+
+    const onVisibility = () => {
+      if (doc.hidden) stop();
+      else schedule();
+    };
+    const onMotionChange = () => {
+      stop();
+      if (still()) poseAtRest();
+      else schedule();
+    };
+
+    const intersection = new win.IntersectionObserver(([entry]) => {
+      visible = entry?.isIntersecting ?? true;
+      if (visible) schedule();
+      else stop();
+    });
+    intersection.observe(root);
+    doc.addEventListener('visibilitychange', onVisibility);
+    reduced.addEventListener('change', onMotionChange);
+
+    buildDom();
+    if (still()) poseAtRest();
+    else {
+      pose(clock);
+      schedule();
+    }
+
+    return {
+      setConfig(next = {}) {
+        config = { ...config, ...next };
+        plan = gridPlan(config);
+        timeline = timelineFor(config);
+        buildDom();
+        stop();
+        if (still()) poseAtRest();
+        else {
+          pose(clock);
+          schedule();
+        }
+      },
+      destroy() {
+        destroyed = true;
+        stop();
+        intersection.disconnect();
+        doc.removeEventListener('visibilitychange', onVisibility);
+        reduced.removeEventListener('change', onMotionChange);
+        root.replaceChildren();
+      }
+    };
+  }
+
+  const root = document.querySelector('.apt-root');
+  if (root) {
+    const aptInstance = buildAppearText(root, {
+      "text": "DOUBLE ONE",
+      "rowCount": 1,
+      "repeatCount": 5,
+      "expandSeconds": 1.2,
+      "holdSeconds": 1.1,
+      "driftDistance": 85,
+      "restingOffset": 38,
+      "zoomScale": 1.15
+    });
+    window.addEventListener('pagehide', () => aptInstance.destroy(), { once: true });
+  }
+})();
+</script>
+</body>
+</html>
